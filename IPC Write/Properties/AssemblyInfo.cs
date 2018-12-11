@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("IP Emulator")]
+[assembly: AssemblyTitle("IPC Write")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IP Emulator")]
+[assembly: AssemblyProduct("IPC Write")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("2907a37a-d80b-456e-bfa5-f1362af7eb15")]
+[assembly: Guid("da789cd9-86d7-407e-8b6e-cb56e1d4ff3f")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //

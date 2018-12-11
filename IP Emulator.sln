@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP Emulator", "IP Emulator\IP Emulator.csproj", "{2907A37A-D80B-456E-BFA5-F1362AF7EB15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPC Write", "IPC Write\IPC Write.csproj", "{DA789CD9-86D7-407E-8B6E-CB56E1D4FF3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{874BB65B-9184-47B4-955C-AF50392E3E21} = {874BB65B-9184-47B4-955C-AF50392E3E21}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPC Read", "IPC Read\IPC Read.csproj", "{7927F8C4-5EBA-4665-A285-945EA2FD1D9B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{874BB65B-9184-47B4-955C-AF50392E3E21} = {874BB65B-9184-47B4-955C-AF50392E3E21}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C3C81C0-3140-4299-95A3-72440BAF695B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extras", "Extras\Extras.csproj", "{874BB65B-9184-47B4-955C-AF50392E3E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +23,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2907A37A-D80B-456E-BFA5-F1362AF7EB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2907A37A-D80B-456E-BFA5-F1362AF7EB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2907A37A-D80B-456E-BFA5-F1362AF7EB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2907A37A-D80B-456E-BFA5-F1362AF7EB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA789CD9-86D7-407E-8B6E-CB56E1D4FF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA789CD9-86D7-407E-8B6E-CB56E1D4FF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA789CD9-86D7-407E-8B6E-CB56E1D4FF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA789CD9-86D7-407E-8B6E-CB56E1D4FF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7927F8C4-5EBA-4665-A285-945EA2FD1D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7927F8C4-5EBA-4665-A285-945EA2FD1D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7927F8C4-5EBA-4665-A285-945EA2FD1D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7927F8C4-5EBA-4665-A285-945EA2FD1D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874BB65B-9184-47B4-955C-AF50392E3E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874BB65B-9184-47B4-955C-AF50392E3E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874BB65B-9184-47B4-955C-AF50392E3E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874BB65B-9184-47B4-955C-AF50392E3E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
